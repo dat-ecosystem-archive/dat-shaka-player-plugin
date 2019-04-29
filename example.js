@@ -15,14 +15,17 @@ Object.assign(video, {
 
 Object.assign(document.body.style, {
   background: '#151515',
+  margin: '8px',
   padding: 0,
 })
 
 Object.assign(video.style, {
   display: 'block',
   position: 'relative',
-  margin: '0 auto',
-  width: '98%',
+  margin: '0px auto',
+  width: '100%',
+  height: 'calc(calc(100 * 1vh) - 16px)',
+  outline: 'none',
 })
 
 const plugin = register(shaka, {})
