@@ -1,0 +1,30 @@
+{
+  "name": "dat-shaka-plugin",
+  "version": "0.0.1",
+  "description": "A plugin for 'shaka-player' to load 'dat://' URIs",
+  "main": "index.js",
+  "scripts": {
+    "test": ":"
+  },
+  "keywords": [
+    "dat",
+    "shaka",
+    "player",
+    "plugin"
+  ],
+  "author": "Joseph Werle <joseph.werle@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "discovery-swarm-web": "^1.0.6",
+    "shaka-player": "^2.5.0-beta3"
+  },
+  "dependencies": {
+    "collect-stream": "^1.2.1",
+    "dat-link-resolve": "^2.3.0",
+    "debug": "^4.1.1",
+    "hyperdrive": "^9.14.5",
+    "mime": "^2.4.2",
+    "random-access-memory": "^3.1.1",
+    "range-parser": "^1.2.0"
+  }
+}
