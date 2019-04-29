@@ -165,7 +165,7 @@ function createPlugin(shaka, options) {
     }
 
     function onstream() {
-      return drive.replicate({ timeout: 0 })
+      return drive.replicate({ timeout: 0, live: true })
     }
   }
 
