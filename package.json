@@ -1,5 +1,5 @@
 {
-  "name": "dat-shaka-plugin",
+  "name": "dat-shaka-player-plugin",
   "version": "0.1.0",
   "description": "A plugin for 'shaka-player' to load 'dat://' URIs",
   "main": "index.js",
