@@ -1,5 +1,7 @@
+![deprecated](http://badges.github.io/stability-badges/dist/deprecated.svg)
+
 dat-shaka-player-plugin
-================
+=======================
 
 A plugin for 'shaka-player' to load `dat://` URI schemes.
 
